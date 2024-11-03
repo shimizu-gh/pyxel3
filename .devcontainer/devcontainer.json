@@ -1,0 +1,8 @@
+{
+  "name": "Pyxel VNC Template",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:1": {}
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y xvfb python3-tk && pip install -r requirements.txt"
+}
